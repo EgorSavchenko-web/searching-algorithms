@@ -78,7 +78,7 @@ Results are compared between:
 
 The statistics are printed in tables, and impossible maps are displayed for further analysis.
 
-## ⚠️ Limitations & Assumptions
+## Limitations & Assumptions
 
 - **Windows‑only**: The tester uses Windows pipes (`CreatePipe`). For Linux/macOS, replace with `fork()` and `pipe()`.
 - **Deterministic randomness**: Maps are generated using `std::random_device` and `mt19937`.
